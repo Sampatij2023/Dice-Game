@@ -11,10 +11,10 @@ image2.setAttribute("src", randomimgsource2 );
 
 
 if (randomnumber1 > randomnumber2)  {
-  document.querySelector("h1").innerHTML="player 1 wins";
+  document.querySelector("h1").innerHTML="Athira wins";
 }
 else if (randomnumber1 < randomnumber2)  {
-  document.querySelector("h1").innerHTML="player 2 wins";
+  document.querySelector("h1").innerHTML="Deepak wins";
 }
 else{
   document.querySelector("h1").innerHTML="no one wins";
